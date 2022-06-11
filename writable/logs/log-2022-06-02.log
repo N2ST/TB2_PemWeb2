@@ -1,0 +1,152 @@
+CRITICAL - 2022-06-02 19:54:14 --> Too few arguments to function App\Controllers\CV::DetailCv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DetailCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 19:56:00 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-02 19:56:09 --> Too few arguments to function App\Controllers\CV::DetailCv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DetailCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 19:56:55 --> Too few arguments to function App\Controllers\CV::DetailCv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DetailCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 19:56:57 --> Too few arguments to function App\Controllers\CV::DetailCv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DetailCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 19:59:52 --> Invalid file: Detail.php
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Detail.php')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Detail', Array, true)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(99): view('Detail', Array)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Detail('1')
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-02 20:11:44 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-02 20:17:23 --> Invalid file: Detail.php
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Detail.php')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Detail', Array, true)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(99): view('Detail', Array)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Detail('1')
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-02 20:22:21 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 20:22:40 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 20:36:32 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('CV/Detail/1')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('CV/Detail/1')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:36:36 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:36:37 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:36:45 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:37:14 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:37:19 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:38:25 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:38:27 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-02 20:45:54 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel('1')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-02 20:47:08 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel('1')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

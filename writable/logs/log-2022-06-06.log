@@ -1,0 +1,34 @@
+CRITICAL - 2022-06-06 21:51:49 --> Class 'App\Models\Pendidikan' not found
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\CV->__construct()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-06 21:51:50 --> Class 'App\Models\Pendidikan' not found
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(809): App\Controllers\CV->__construct()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-06 23:06:28 --> nama_pendidikan is not a valid rule.
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('nama_pendidikan')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(52): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-06-06 23:41:35 --> Call to a member function findAll() on array
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel('1')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

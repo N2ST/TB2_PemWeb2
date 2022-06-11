@@ -1,0 +1,682 @@
+ERROR - 2022-06-09 03:42:51 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-09 03:42:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Login->save()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-06-09 03:43:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-09 03:43:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-09 03:45:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-09 03:45:47 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 04:52:05 --> var_dump() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'var_dump() expe...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): var_dump()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-06-09 05:25:53 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:26:11 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:26:12 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:26:27 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:26:44 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:27:17 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:27:17 --> Call to a member function getCv() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 05:43:04 --> Cannot declare class App\Controllers\Mahasiswa, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-09 05:43:18 --> Invalid file: Cv/index.php
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Cv/index.php')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Cv/index', Array, true)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(29): view('Cv/index', Array)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-09 05:43:26 --> Invalid file: Cv/index.php
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Cv/index.php')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Cv/index', Array, true)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(29): view('Cv/index', Array)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-09 05:43:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Views\CvView.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(28): view('CvView', Array)
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-09 05:45:19 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Views\CvView.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(28): view('CvView', Array)
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-09 05:46:24 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Views\CvView.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(28): view('CvView')
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-09 05:46:25 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Views\CvView.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(28): view('CvView')
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-09 05:46:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Views\CvView.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(28): view('CvView')
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-09 05:47:23 --> Call to undefined method App\Models\CvModel::getCv
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): CodeIgniter\Model->__call('getCv', Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 05:47:25 --> Call to undefined method App\Models\CvModel::getCv
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): CodeIgniter\Model->__call('getCv', Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 05:47:56 --> Call to undefined method App\Models\CvModel::getCv
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): CodeIgniter\Model->__call('getCv', Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 05:48:48 --> Call to undefined method App\Models\CvModel::getCv
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): CodeIgniter\Model->__call('getCv', Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 05:49:03 --> Call to undefined method App\Models\CvModel::getCv
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): CodeIgniter\Model->__call('getCv', Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 05:49:03 --> Call to undefined method App\Models\CvModel::getCv
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(23): CodeIgniter\Model->__call('getCv', Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 05:50:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Views\CvView.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 184, Array)
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(24): view('CvView', Array)
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-09 06:02:43 --> Too few arguments to function App\Controllers\CV::edit(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->edit()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:03:02 --> Too few arguments to function App\Controllers\CV::edit(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->edit()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:03:05 --> Too few arguments to function App\Controllers\CV::edit(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->edit()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:04:51 --> Too few arguments to function App\Controllers\CV::delete(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->delete()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:05:08 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->delete()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:05:11 --> Call to a member function delete() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->delete()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:20:04 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:30:26 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 06:30:32 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 06:30:33 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('CV/edit/')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('CV/edit/')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 06:30:39 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Cv')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Cv')
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-09 06:34:39 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:35:06 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:35:30 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:35:33 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:36:05 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:36:07 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:36:40 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:37:15 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:37:18 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:37:45 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:37:48 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:38:24 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:38:49 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:39:15 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:39:36 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:39:48 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:40:15 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:40:46 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:41:00 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->DoTambahCv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:44:35 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:44:46 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:45:10 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:45:13 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:45:58 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:46:34 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:46:37 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:48:17 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:28 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:29 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:29 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:29 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:29 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:29 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:30 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:30 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:49:34 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:50:10 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:51:19 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:51:38 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:51:39 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:51:52 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:51:55 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:52:23 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:52:38 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:52:44 --> Too few arguments to function App\Controllers\CV::Editcv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:52:46 --> Too few arguments to function App\Controllers\CV::Hapuscv(), 0 passed in C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Hapuscv()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-09 06:54:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-09 06:54:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:55:34 --> Call to a member function find() on array
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-09 06:55:35 --> Call to a member function find() on array
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-09 06:56:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-09 06:56:06 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-09 06:56:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-09 06:56:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-09 06:56:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-09 06:56:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

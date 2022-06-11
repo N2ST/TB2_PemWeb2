@@ -1,0 +1,114 @@
+CRITICAL - 2022-06-08 22:30:36 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 22:31:15 --> Cannot declare class App\Models\Cv, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 22:41:26 --> Unsupported operand types
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('CvView', Array, true)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(25): view('CvView', Array)
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-08 23:14:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-08 23:14:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-08 23:14:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-08 23:14:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:14:53 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv('1')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:15:05 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv('7')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:15:45 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv('7')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:15:46 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv('7')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:15:54 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv('1')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-08 23:17:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-08 23:17:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->exportExcel()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-08 23:18:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-08 23:18:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-08 23:18:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-08 23:18:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-06-08 23:19:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-06-08 23:19:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->index()
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-06-08 23:35:21 --> Invalid file: Editcv.php
+#0 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Editcv.php')
+#1 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Editcv', Array, true)
+#2 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\app\Controllers\CV.php(84): view('Editcv', Array)
+#3 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\CV->Editcv('1')
+#4 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CV))
+#5 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\TB2-Perpustakaan-PWeb2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
